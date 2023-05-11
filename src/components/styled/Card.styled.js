@@ -17,6 +17,7 @@ export const StyledCard = styled.div`
 
   img {
     width: 80%;
+    margin: ${({ layout }) => (layout === 'row-reverse' ? '0' : '0 0 0 5rem')};
   }
 
   & > div {
@@ -25,5 +26,10 @@ export const StyledCard = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+    }
   }
 `
