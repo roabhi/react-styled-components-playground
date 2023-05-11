@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/Header'
+import { Container } from './components/styled/Container.styled'
+
+const theme = {
+  colors: {
+    header: `#ebfbff`,
+    body: '#fff',
+    footer: '#003333',
+  },
 }
 
-export default App;
+const App = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <Header />
+        <Container>
+          <h1>Hello World</h1>
+        </Container>
+      </>
+    </ThemeProvider>
+  )
+}
+
+export default App

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Styled Components Playground
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a basic experiment with Styled Components package for React.
 
 ## Available Scripts
 
