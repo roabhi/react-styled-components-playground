@@ -1,4 +1,4 @@
-![React Styled Components + Theme Switcher](https://i.ibb.co/Hd5FGRf/localhost-3000-i-Pad-Mini-1.png 'React Styled Components + Theme Switcher')
+![React Styled Components + Theme Switcher](https://i.ibb.co/C6DXwqL/localhost-3000-i-Pad-Mini-1-sized.png 'React Styled Components + Theme Switcher')
 
 # React Styled Components Playground + Theme Switcher
 
