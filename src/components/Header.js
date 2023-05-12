@@ -1,6 +1,7 @@
-import { StyledHeader, Nav, Logo, Image } from './styled/Header.styled'
+import { StyledHeader, Nav, Image } from './styled/Header.styled'
 import { Button } from './styled/Button.styled'
 import { Container } from './styled/Container.styled'
+import Logo from './Logo'
 import { Flex } from './styled/Flex.styled'
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="./images/logo.svg" alt="" />
+          <Logo alt="logo" />
           <Button>Try it Free</Button>
         </Nav>
         <Flex>

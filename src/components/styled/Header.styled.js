@@ -4,6 +4,7 @@ import { styled } from 'styled-components'
 
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
+  color: ${({ theme }) => theme.colors.color};
   padding: 1.25rem 0;
 `
 
@@ -20,11 +21,11 @@ export const Nav = styled.nav`
   }
 `
 
-export const Logo = styled.img`
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-bottom: 2.5rem;
-  }
-`
+// export const Logo = styled.img`
+//   @media (max-width: ${({ theme }) => theme.mobile}) {
+//     margin-bottom: 2.5rem;
+//   }
+// `
 
 export const Image = styled.img`
   width: 23.438rem;
