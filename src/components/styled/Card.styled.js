@@ -8,7 +8,8 @@ import { styled } from 'styled-components'
 export const StyledCard = styled.div`
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.cardBg};
+  color: ${({ theme }) => theme.colors.color};
   border-radius: 0.938rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.15);
   margin: 2.5rem 0;

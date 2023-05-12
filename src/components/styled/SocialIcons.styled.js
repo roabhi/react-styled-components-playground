@@ -4,7 +4,7 @@ export const StyledSocialIcons = styled.div`
   display: flex;
   align-items: top;
   justify-content: center;
-  margin: 1.25rem 0;
+  margin: 2.875rem 0;
 
   li {
     list-style: none;
